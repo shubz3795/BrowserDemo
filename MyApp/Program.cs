@@ -43,13 +43,13 @@ namespace MyApp
 
 
             ChromeOptions capability = new ChromeOptions();
-            capability.AddAdditionalCapability("os_version", "9.0", true);
-            capability.AddAdditionalCapability("device", "OnePlus 7", true);
+            capability.AddAdditionalCapability("os_version", "6.0", true);
+            capability.AddAdditionalCapability("device", "Samsung Galaxy Note 4", true);
             capability.AddAdditionalCapability("real_mobile", "true", true);
             capability.AddAdditionalCapability("browserstack.local", "false", true);
-            capability.AddAdditionalCapability("browserstack.user", USERNAME);
-            capability.AddAdditionalCapability("browserstack.key", AUTOMATE_KEY);
-           
+            capability.AddAdditionalCapability("browserstack.user", "shubhamkulkarni1", true);
+            capability.AddAdditionalCapability("browserstack.key", "WyWcmc2mtZc5TwQBBsFe", true);
+
 
             IWebDriver driver;
             driver = new RemoteWebDriver(new Uri("https://hub-cloud.browserstack.com/wd/hub/"), capability);
