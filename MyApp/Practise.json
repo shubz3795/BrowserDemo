@@ -1,0 +1,26 @@
+{
+  "Demo": {
+    "name": "shubham",
+    "age": 24,
+    "nicjname": "shambhu",
+    "email": "skulkarni3795@gmail.com",
+    "married": false,
+    "height": 5.7,
+    "address": {
+      "permanent": "shree rajeshwar,nanded",
+      "current": "flyview pune"
+    },
+    "friends": [
+      {
+        "mahesh": {
+          "id": 0,
+          "place": "pune"
+        },
+        "shubz": {
+          "id": 1,
+          "place": "pune"
+        }
+      }
+    ]
+  }
+}
